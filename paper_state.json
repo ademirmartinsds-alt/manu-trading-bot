@@ -1,0 +1,38 @@
+{
+  "mode": "PAPER_ONLY",
+  "cash_brl": 50.0,
+  "positions": {},
+  "trades": [],
+  "last_candles": {
+    "FETUSDT": 1795210200000,
+    "VIRTUALUSDT": 1795210200000,
+    "RENDERUSDT": 1795210200000,
+    "TAOUSDT": 1795210200000,
+    "ARKMUSDT": 1795210200000
+  },
+  "updated_at": "2026-11-20T21:51:10.905515+00:00",
+  "quotes": {
+    "FETUSDT": {
+      "price_usdt": 0.1154,
+      "closed_candle_ms": 1795210200000
+    },
+    "VIRTUALUSDT": {
+      "price_usdt": 0.3811,
+      "closed_candle_ms": 1795210200000
+    },
+    "RENDERUSDT": {
+      "price_usdt": 1.265,
+      "closed_candle_ms": 1795210200000
+    },
+    "TAOUSDT": {
+      "price_usdt": 178.5,
+      "closed_candle_ms": 1795210200000
+    },
+    "ARKMUSDT": {
+      "price_usdt": 0.0779,
+      "closed_candle_ms": 1795210200000
+    }
+  },
+  "status": "ok",
+  "equity_brl": 50.0
+}

@@ -1,38 +1,82 @@
 {
   "mode": "PAPER_ONLY",
-  "cash_brl": 50.0,
-  "positions": {},
-  "trades": [],
-  "last_candles": {
-    "FETUSDT": 1795210200000,
-    "VIRTUALUSDT": 1795210200000,
-    "RENDERUSDT": 1795210200000,
-    "TAOUSDT": 1795210200000,
-    "ARKMUSDT": 1795210200000
-  },
-  "updated_at": "2026-11-20T21:51:10.905515+00:00",
-  "quotes": {
+  "cash_brl": 20.0,
+  "positions": {
     "FETUSDT": {
-      "price_usdt": 0.1154,
-      "closed_candle_ms": 1795210200000
+      "entry_usdt": 0.1077,
+      "qty": 15.688100378716337,
+      "cost_brl": 10,
+      "opened_at": "2026-11-24T17:45:00.967636+00:00"
     },
     "VIRTUALUSDT": {
-      "price_usdt": 0.3811,
-      "closed_candle_ms": 1795210200000
+      "entry_usdt": 0.3622,
+      "qty": 4.664849284339453,
+      "cost_brl": 10,
+      "opened_at": "2026-11-24T17:45:00.967636+00:00"
     },
     "RENDERUSDT": {
-      "price_usdt": 1.265,
-      "closed_candle_ms": 1795210200000
+      "entry_usdt": 1.297,
+      "qty": 1.3027050198826133,
+      "cost_brl": 10,
+      "opened_at": "2026-11-24T17:45:00.967636+00:00"
+    }
+  },
+  "trades": [
+    {
+      "at": "2026-11-24T17:45:00.967636+00:00",
+      "symbol": "FETUSDT",
+      "side": "BUY",
+      "price_usdt": 0.1077,
+      "pnl_brl": 0,
+      "reason": "SMA_ENTRY"
+    },
+    {
+      "at": "2026-11-24T17:45:00.967636+00:00",
+      "symbol": "VIRTUALUSDT",
+      "side": "BUY",
+      "price_usdt": 0.3622,
+      "pnl_brl": 0,
+      "reason": "SMA_ENTRY"
+    },
+    {
+      "at": "2026-11-24T17:45:00.967636+00:00",
+      "symbol": "RENDERUSDT",
+      "side": "BUY",
+      "price_usdt": 1.297,
+      "pnl_brl": 0,
+      "reason": "SMA_ENTRY"
+    }
+  ],
+  "last_candles": {
+    "FETUSDT": 1795541400000,
+    "VIRTUALUSDT": 1795541400000,
+    "RENDERUSDT": 1795541400000,
+    "TAOUSDT": 1795541400000,
+    "ARKMUSDT": 1795541400000
+  },
+  "updated_at": "2026-11-24T17:45:00.967636+00:00",
+  "quotes": {
+    "FETUSDT": {
+      "price_usdt": 0.1077,
+      "closed_candle_ms": 1795541400000
+    },
+    "VIRTUALUSDT": {
+      "price_usdt": 0.3622,
+      "closed_candle_ms": 1795541400000
+    },
+    "RENDERUSDT": {
+      "price_usdt": 1.297,
+      "closed_candle_ms": 1795541400000
     },
     "TAOUSDT": {
-      "price_usdt": 178.5,
-      "closed_candle_ms": 1795210200000
+      "price_usdt": 182.7,
+      "closed_candle_ms": 1795541400000
     },
     "ARKMUSDT": {
-      "price_usdt": 0.0779,
-      "closed_candle_ms": 1795210200000
+      "price_usdt": 0.0717,
+      "closed_candle_ms": 1795541400000
     }
   },
   "status": "ok",
-  "equity_brl": 50.0
+  "equity_brl": 49.88018
 }
